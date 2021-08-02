@@ -15,6 +15,6 @@ func EliminateDuplicates(input []string) []string {
 }
 
 func main() {
-	ar := []string{"1", "2", "3", "3", "4", "5", "5"}
-	fmt.Println(EliminateDuplicates(ar))
+	ar := []string{"1", "2", "2", "3", "4", "4", "4", "5"}
+	fmt.Printf("%q", EliminateDuplicates(ar))
 }
